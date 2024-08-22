@@ -20,3 +20,6 @@ Image credits:
     
     Kenny Eliason
         https://unsplash.com/photos/grayscale-photo-of-man-playing-guitar-YaYcCW1nlqc?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash
+
+    Daniel Jensen
+        https://unsplash.com/photos/closeup-photo-of-persons-hand-NMk1Vggt2hg?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash
