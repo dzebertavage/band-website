@@ -214,3 +214,92 @@ img {
     font-style: italic;
     align-self: center;
 }
+
+.mail-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.mail-form-box {
+    background-color: #2d67c5;
+    border-radius: 10px;
+    width: 800px;
+    max-width: 800px;
+    min-width: 200px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+}
+
+.mail-form-text {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+}
+
+.mail-form-text p {
+    padding-bottom: 15px;
+}
+
+.mail-header {
+    font-size: 20px;
+    font-weight: 700;
+    flex-shrink: 1;
+}
+
+.mail-desc {
+    flex-shrink: 1;
+}
+
+.input-and-button {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+input[type=email] {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.2);
+    color: #fff;
+    font-size: 18px;
+    height: 40px;
+    padding: 0 5px;
+    width: 500px;
+    min-width: 50px;
+    flex-shrink: 1;
+}
+
+input[type=email]::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+input[type=email]::ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.signup-button {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.2);
+    color: #fff;
+    font-size: 16px;
+    padding: 0 25px;
+    flex-shrink: 0;
+}
+
+.footer {
+    background-color: #252525;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
