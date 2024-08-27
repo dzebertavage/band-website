@@ -185,5 +185,32 @@ img {
 .member-blurb {
     align-self: center;
     font-size: 24px;
+    font-style: italic;
     padding-top: 20px;
+}
+
+.quote-container {
+    background-image: url(../img/kenny-eliason-YaYcCW1nlqc-unsplash.jpg);
+    background-color: rgb(189, 189, 189);
+    background-blend-mode: lighten;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    gap: 25px;
+}
+
+.quote {
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.quote-attrib {
+    font-size: 24px;
+    font-style: italic;
+    align-self: center;
 }
